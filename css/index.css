@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.header {
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 60px;
+}
+
+.header, .section-1 {  
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section-1 {
+    color: #FFF;
+    padding: 20px 80px;
+    gap: 50px;
+    height: 35vh;
+}
+
+.subtext {
+    font-size: 14px;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+#button-1 {
+    background-color: #3882F6;
+    border: #3882F6;
+    color: #FFF;
+}
+
+#landscape {
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+  
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 15px 10px 15px;
+    color: #E5E7EB;
+}
+
+#title-section-2 {
+    text-align: center;
+
+}
+
+.section-2 {
+    padding: 20px 80px;
+    gap: 50px;
+    height: 35vh;
+}
+
+.container-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.container-2 {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+
+.little-img {
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    margin-bottom: 8px;
+}
+
+
+.img-text {
+    color: #1F2937;
+    margin: auto 10px;
+}
+
+
+.section-3 {
+    background-color: #E5E7EB;
+    height: 30vh;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+
+#quote-firm {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container-3 {
+    display: flex;
+    gap: 30px;
+    background-color: #3882F6;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+
+#little-title {
+    font-size: 18px;
+}
+
+#button-2 {
+    background-color: #3882F6;
+    border: #3882F6;
+    color: #FFF;
+    border: solid #FFF;
+    align-self: center;
+}
+
